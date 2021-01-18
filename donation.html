@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Donation</title>
+</head>
+<body>
+    <div class="form">
+        <div class="payInput">
+
+            <h1>Donate</h1>
+            <form action="/payInfo" method="POST">
+                <input type="text" name="name" placeholder="Name" required autocomplete="off"><br>
+                <input type="email" name="email" id="email" placeholder="Email" required autocomplete="off"><br>
+                <input type="tel" name="mobNum" id="mobNum" placeholder="Contact Number" required autocomplete="off"><br>
+                <input type="number" id="amount" name="amount" placeholder="Amount" required autocomplete="off"><br>
+                
+                <button class="formSubmit payButton">Next</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
